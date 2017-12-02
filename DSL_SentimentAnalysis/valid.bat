@@ -1,0 +1,1 @@
+python inference.py --model_dir=winner --model_S2L=warmClassifier.npz --model_L2S=warmCLM.npz

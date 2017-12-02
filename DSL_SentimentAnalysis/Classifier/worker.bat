@@ -1,0 +1,4 @@
+@echo off
+setlocal ENABLEDELAYEDEXPANSION
+set THEANO_FLAGS=device=gpu5
+python train_classifier_LM_NoDrop_google_sgd0.2.py

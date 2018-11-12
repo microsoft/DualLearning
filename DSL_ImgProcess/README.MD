@@ -1,4 +1,4 @@
-Dual supervised learning for sentiment analysis.
+Dual supervised learning for image processing.
 ==========
 
 This is a tensorflow based implementation of DSL for image processing. The primal task is image classification (image-to-label) and the dual task is image generation with given label (label-to-iamge). It can leverage the dual signal of two tasks to improve the performance.

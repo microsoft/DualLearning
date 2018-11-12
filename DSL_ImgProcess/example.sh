@@ -1,5 +1,4 @@
 export PATH=/usr/anaconda2/bin:$PATH
-#export LD_LIBRARY_PATH=~/Downloads/cuda/lib64:"$LD_LIBRAYR_PATH"
 export CUDA_VISIBLE_DEVICES=0,1,2,3
 
 # train two models (test 4 gpu)

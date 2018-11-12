@@ -21,22 +21,5 @@ python monitor.py --data_dir=./cifar10_data --save_dir=$model_dir --batch_size=1
 done
 
 
-# When using "--oneside" in training mode, you should also add the 
+# Reminder: When using "--oneside" in training mode, you should also add the 
 # corresponding "--oneside" in the inference phase.
-
-
-: <<'VIRTUAL_ENV'
-source ~/virtual_py/bin/activate
-export CUDA_VISIBLE_DEVICES=0
-
-model_dir=debug_room
-
-python monitor.py --data_dir=./cifar10_data --save_dir=$model_dir --batch_size=12 --show_interval=100 --load_params=params_9uidx13880.ckpt --mode=L2I --useSoftLabel=0
-
-deactivate
-
-VIRTUAL_ENV
-
-
-
-

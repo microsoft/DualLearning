@@ -1,11 +1,31 @@
-Thanks a lot for your interests to our work. 
-I quickly wrap up a multi-gpu version code. (Note that in the submission phase, we use a 1gpu version code. Please let me know if anything we can improve)
+Dual supervised learning for sentiment analysis.
+==========
 
-Training demo code: example.sh
+This is a tensorflow based implementation of DSL for image processing. The primal task is image classification (image-to-label) and the dual task is image generation with given label (label-to-iamge). It can leverage the dual signal of two tasks to improve the performance.
 
-Inference demo code: batch_test_script_mainbody.sh
+Download
+----------
+$ git clone https://github.com/Microsoft/DualLearning
 
-The data and the checkpoint are available at:
-https://www.dropbox.com/sh/fpnvtcmyj4mul2s/AAB4wvsxoS8pf7ExnZYe4VV1a?dl=0
+Build
+----------
 
-You need to download them and put them in the working dir. An example is in ``example.sh''
+**Prerequisite**
+
+The code is build on tensorflow.
+
+
+Run
+----------
+Traininig: refer to `example.sh`
+
+Evaluation: refer to `batch_test_script_mainbody.sh`
+
+Checkpoint
+----------
+The data and a pretrained checkpoint can be downloaded at
+  https://www.dropbox.com/sh/fpnvtcmyj4mul2s/AAB4wvsxoS8pf7ExnZYe4VV1a?dl=0
+
+Reference
+----------
+[1] Xia, Y., Qin, T., Chen, W., Bian, J., Yu, N., & Liu, Dual Supervised Learning, ICML2017

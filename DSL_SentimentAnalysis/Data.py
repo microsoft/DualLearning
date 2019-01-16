@@ -1,7 +1,5 @@
-"""
-data loading and minibatch generation
-"""
-__author__ = 'v-yirwan'
+# Copyright (c) Microsoft. All rights reserved.
+# Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 import cPickle as pkl
 import gzip

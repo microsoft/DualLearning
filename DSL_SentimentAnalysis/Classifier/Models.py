@@ -1,4 +1,7 @@
 """
+# Copyright (c) Microsoft. All rights reserved.
+# Licensed under the MIT license. See LICENSE file in the project root for full license information.
+
 model for classification task
 supports simple-rnn, lstm, hierarchical lstm
 supports lstm with identity skip-connections(soft), parametric skip-connections(soft)

@@ -1,3 +1,6 @@
+# Copyright (c) Microsoft. All rights reserved.
+# Licensed under the MIT license. See LICENSE file in the project root for full license information.
+
 from config import config_params
 import os
 os.environ['THEANO_FLAGS']='floatX=float32,device=cuda%d' % (config_params.gpu)

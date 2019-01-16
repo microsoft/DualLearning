@@ -1,4 +1,7 @@
 """
+# Copyright (c) Microsoft. All rights reserved.
+# Licensed under the MIT license. See LICENSE file in the project root for full license information.
+
 supports simple-rnn, lstm, hierarchical lstm
 supports lstm with identity skip-connections(soft), parametric skip-connections(soft)
 supports resnet, resnet with identity skip-connections(full and soft), parametric skip connections(soft)

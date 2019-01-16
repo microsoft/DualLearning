@@ -1,10 +1,5 @@
-"""
-Trains a Pixel-CNN++ generative model on CIFAR-10 or Tiny ImageNet data.
-Uses multiple GPUs, indicated by the flag --nr-gpu
-
-Example usage:
-CUDA_VISIBLE_DEVICES=0,1,2,3 python train_double_cnn.py --nr_gpu 4
-"""
+# Copyright (c) Microsoft. All rights reserved.
+# Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 import os
 import sys
